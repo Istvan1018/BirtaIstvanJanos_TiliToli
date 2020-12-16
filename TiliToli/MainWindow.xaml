@@ -1,0 +1,38 @@
+﻿<Window x:Class="TiliToli.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiliToli"
+        mc:Ignorable="d"
+        Title="TiliToli" Height="500" Width="340"
+        Name ="Jatek">
+
+
+    <Grid Margin="0,0,3.6,-4.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="html-color-codes-color-tutorials-hero.jpg"/>
+        </Grid.Background>
+
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="115,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="215,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="115,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="215,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="115,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" Background="#FF494949"/>
+        <Button Content="" x:Name="Button0" HorizontalAlignment="Left" Margin="215,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" Click="Button1_Click" RenderTransformOrigin="0.596,0.824">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Új játék" HorizontalAlignment="Left" Margin="90,21,0,0" VerticalAlignment="Top" Width="153" Height="28" FontSize="16" FontWeight="Bold" Background="#FF494949"/>
+        <Label Content="Léplsek száma:" HorizontalAlignment="Left" Margin="90,407,0,0" VerticalAlignment="Top" Width="154" Height="30" FontSize="16" Background="#FF494949"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
